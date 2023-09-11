@@ -18,7 +18,8 @@ body {
 }
 
 .story__left {
-    max-width: 406px;
+    max-width: 410px;
+    margin-right: 60px;
 }
 
 .sotry__title {
@@ -33,11 +34,30 @@ body {
 
 }
 .story__right {
-
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 15px;
 }
 
 .story__item {
-
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    width: 140px;
+    height: 224px;
+    padding: 15px;
+    margin-right: 20px;
+}
+.story__item:nth-child(1) {
+    background-image: url(../img/Bitmap.png);
+}
+.story__item:nth-child(2) {
+    background-image: url(../img/Bitmap-2.png);
+}
+.story__item:nth-child(3) {
+    background-image: url(../img/Bitmap-3.png);
+    margin-right: 0;
 }
 
 .story__inner {
